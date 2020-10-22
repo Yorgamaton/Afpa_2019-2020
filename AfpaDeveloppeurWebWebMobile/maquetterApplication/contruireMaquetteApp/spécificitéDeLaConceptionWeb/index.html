@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Maquetter une apllication</title>
+</head>
+<body>
+    <div class="container border mt-2 mb-2">
+        <header>
+            <div class="card mb-3 mt-3">
+                <img class="card-img-top" src="assets/images/header.png" alt="Card image cap">
+                <div class="card-body bg-secondary">
+                    <h5 class="card-title text-light text-center">Construire la maquette de son application</h5>
+                    <!-- <p class="card-text">
+                    </p> -->
+                    <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                </div>
+            </div>
+        </header>
+
+        <main>
+
+            <div id="accordion">
+
+                <!-- Etapes de la création d'une maquette de site web : -->
+                <div class="card">
+                    <div class="card-header bg-secondary" id="headingOne>
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-light" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseone">
+                        Etapes de la création d'une maquette de site web :
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-8">
+                                    <h5 class="text-center"><u><b> Etape n°1 : l'arborescence. </b></u></h5>
+                                    <p>
+                                        L'arborescence (ou plan) d'un site constitu la première étape de la création d'une maquette. 
+                                        Elle correspond à un schéma qui organise les pages du site en rubriques et définit les différents niveaux de navigation.
+                                        Elle permet donc ainsi d'avoir une vision globale du site web et des parcours de navigation avant de réaliser les maquettes des pages principales.                               
+                                    </p>
+                                </div>
+                                <div class="col-4">
+                                    <a href="assets/images/plan_site.png" target="_blank"><img src="assets/images/plan_site.png" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="row">
+                                <div class="col-2">
+                                    <a href="assets/images/zoning.jpg" target="_blank"><img src="assets/images/zoning.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="col-10">
+                                    <h5 class="text-center"><u><b>Etape n°2 : le zoning.</b></u> </h5>
+                                    <p>
+                                        L'étapee suivante est la réalisation du "zonings" des pages qui se définti comme une maquette fonctionnelle composée uniquement de blocs. C'est-à-dire que l'on va réaliser le découpage des pages principales en zones qui va correspondre, par exemple, 
+                                        à la place que va prendre le logo, le menu principal, le menu secondaire ou encore l'espace des réseaux sociaux. 
+                                    </p>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="row">
+                                <div class="col-9">
+                                    <h5 class="text-center"><u><b>Etape n°3 : wireframes (maquette fonctionnelle).</b></u> </h5>
+                                    <p>
+                                        Il s’agit de définir en noir en blanc la mise en page, l’organisation des différents éléments, voire les principaux textes. 
+                                        C’est ce type de maquette qu’on appelle wireframe, ergolayout ou mock-up. Le terme mock-up a la particularité de qualifier une 
+                                        maquette fonctionnelle à l’échelle 1 : 1. 
+                                        Le wireframe ci-contre a été réalisé à l’aide du logiciel Balsamiq.
+
+                                    </p>
+                                </div>
+                                <div class="col-3">
+                                    <a href="assets/images/wireframes.png" target="_blank"><img src="assets/images/wireframes.png" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="row">
+                                <div class="col-9">
+                                    <h5 class="text-center"><u><b> Etape n°4 : la maquettes graphiques.</b></u></h5>
+                                    <p>
+                                        Prolongement de la maquette fonctionnelle, la maquette graphique intègre les couleurs et identité de marque. Il s’agit d’une 
+                                        représentation précise de la page web qui devra ensuite être intégrée (=codée en HTML / CSS) par les développeurs, à l’exception 
+                                        peut-être des textes qui sont souvent encore du faux texte (lorem ipsum..). Généralement, les maquettes graphiques sont réalisées 
+                                        sous Adobe Photoshop (ou Illustrator..)
+                                    </p>
+                                </div>
+                                <div class="col-3">
+                                    <a href="assets/images/maquette_graphique.png" target="_blank"><img src="assets/images/maquette_graphique.png" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Construire l'arborescence de son site web : -->
+                <div class="card">
+                    <div class="card-header bg-secondary" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link text-light collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Etape n°1 : construire l'arborescence de son site web.
+                        </button>
+                    </h5>
+                    </div>
+
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                        <div class="card-body">
+                            <blockquote class="blockquote text-center">
+                                <p class="mb-0">"Il est coutume de dire qu’une page qui peut être atteinte en 3 clics est inutile."</p>
+                                <footer class="blockquote-footer"><a href="https://www.lafabriquedunet.fr/conseils/conception-site-web/arborescence-site-web/">La Fabrique du net</a></footer>
+                            </blockquote>
+                            <h4><b><u>Avant de commencer :</u></b></h4>
+                            <p>Dans un premier temps, il est primordial de mettre en place un dispositif de navigation initial, observer les parcours et améiorer le dispositif  petit à petit.
+                                Un dispositif de navigation peut sappuyer sur différents supports :
+                            </p>
+                            <ul>
+                                <li>Le menu de navigation principal (et le menu secondaire s'il apparait au survol)</li>
+                                <li>Le menu de navigation secondaire (menu enfant sélectionné dans le menu principal ou un menu complètement différent)</li>
+                                <li>Le moteur de recherche interne</li>
+                                <li>La barre latérale (qui favorise la navigation horizontale avec des suggestions de produits ou d'articles)</li>
+                                <li>Le pied de page (donne accès aux principals catégories du site ou à des pages clés)</li>
+                            </ul>
+                            <p>Le but de l'arborescence est d'anticiper des parcours : pour cela on peut imaginer trois profils de visiteurs, chacun arrivant via un canal différent, avec un besoin différent sur une landing page différente.</p>
+
+                            <h6><b>Arborescence et référencement :</b></h6>
+                            <p>Il faut savoir que l'arborescence aura un impact sur le référencement naturel. En effet, le moteur de recherche
+                                va analyser la page pour en comprendre sa structure et déterminer les pages clés. Plus une page est "profonde", moins elle sera prise en compte.
+                                Il est donc recommandé d'avoir au maximum trois niveaux de hiérarchie. A noter que pour parrer la profondeur de l'arborescence, 
+                                on peut mettre en place la technique de la <a href="https://www.miss-seo-girl.com/comment-renforcer-son-maillage-interne/">page annexe</a> qui 
+                                représentera bien les sous-sous-sous-catégories mais d'une manière différente (permet de ne pas descendre en dessous de ces trois niveaux).
+                            </p>
+                            <div class="row d-flex justify-content-center">
+                                <figure class="figure w-50">
+                                    <a href="assets/images/arborescence.png" target="_blank"><img src="assets/images/arborescence.png" class="figure-img img-fluid rounded" alt="Responsive image"></a>
+                                    <figcaption class="figure-caption">Exemple d'un plan de site web sur trois niveaux.</figcaption>
+                                </figure>
+                            </div>
+                            <p>Au dela d'oraganiser hirarchiquement son site, le but va être de regrouper au maximum les pages liés à un même champ sémantique : on va alors parler d'architecture en silo. 
+                                L’idée principale est de décomposer un article principal (article parent) en plusieurs articles plus petits et plus spécialisés.
+                            </p>
+                            <div class="row d-flex justify-content-center">
+                                <div class="col-6">
+                                    <a href="assets/images/silo.png" target="_blank"><img src="assets/images/silo.png" class="figure-img img-fluid rounded" alt="Responsive image"></a>
+                                </div>
+                                <div class="col-6 d-flex align-items-center">
+                                    <a href="assets/images/exempleSilo.jpg" target="_blank"><img src="assets/images/exempleSilo.jpg" class="figure-img img-fluid rounded" alt="Responsive image"></a>
+                                </div>
+
+                            </div>
+                            <p>A noter que l'on peut mettre en avant certaines pages particulières du silo en y intégrant des liens, ce que l'on va qualifier de <a href="https://www.drujokweb.fr/blog/maillage-interne/">maillage interne.</a></p>
+                            <p>Trois règles essentielles lors que l'on travaille sur l'arborescence :
+                                <ul>
+                                    <li>Plus une page est haute dans la hiérarchie de votre plan, meilleur sera son référencement</li>
+                                    <li>Plus une page reçoit de liens d’autres pages de votre site, meilleur sera son référencement</li>
+                                    <li>Plus une page reçoit (et envoie) des liens de pages proches au niveau sémantique, meilleur sera son référencement.</li>
+                                </ul>
+                                
+                            </p>
+                            <p>Pour aller plus loin : 
+                                <ul>
+                                    <li><a href="http://www.htitipi.com/blog/linking-interne.html">http://www.htitipi.com/blog/linking-interne.html</a></li>
+                                    <li><a href="https://www.lafabriquedunet.fr/seo/articles/construire-maillage-interne/">https://www.lafabriquedunet.fr/seo/articles/construire-maillage-interne/</a></li>
+                                </ul>
+                            </p>
+
+                            <h4><u><b>5 étapes pour réaliser l'arborescence d'un site web :</b></u></h4>
+
+                            <ol>
+                                <li>
+                                    <u><b>Lister tous les contenus du site :</b></u> 
+                                    <p>A noter qu'il ne faut pas raisonner en page mais en idées/objets (être le plus exhaustif possible).</p>
+                                    <p>A noter également qu'il est important d'identifier les principaux types de contenu. Par exemple:
+                                        <ul>
+                                            <li>les offres & services : Activité générale, Domaine expertise 1, Domaine expertise 2, Points forts</li>
+                                            <li>Le catalogue : Gamme 1 (3 produits), Gamme 2 (8 produits), Gamme 3 (2 produits)</li>
+                                            <li>A propos (contact, bureaux, qui sommes-nous, mentions légales, etc.)</li>
+                                        </ul>
+                                    </p>
+                                </li>
+                                <li><u><b>Analyser l'arborescence des concurrents :</b></u>
+                                    <p>Le but étant de vérifier de ne pas avoir oublié une idée ou un dimension importante, d'avoir une idée d'organisation.</p>
+                                    pour cela, on peut utiliser des outils d'analyse SEO qui récupère l'ensemble des pages du site 
+                                    (<a href="https://www.screamingfrog.co.uk/seo-spider/">Screaming frog</a> pour les gratuits, <a href="https://ahrefs.com/">Ahrefs</a> et <a href="https://moz.com/link-explorer">Open Site Explorer</a> pour les payants)
+                                </li>
+                                <li><u><b>Organiser & hiérarchiser le contenu :</b></u>
+                                    <p>Pour se faire, il y a deux type d'approches: 
+                                        <ul>
+                                            <li>La première est le <i>bottom-up</i> :  qui consiste à regrouper les contenus les plus bas afin de former des sous-catégories puis de les réunir en catégories plus larges.</li>
+                                            <li>la seconde est le <i>top-down</i>. 
+                                                On va s'attarder ici sur la seconde. Le <b>top-down</b> consiste à définir en premier lieu le premier niveau de hiérarchie, puis de descendre petit à petit, en gardant toujours une vision globale.</li>
+                                        </ul>
+                                    </p>
+                                    <p>A noter cependant que les deux approches complémentaires car permettant de confronter les arborescences et les typologies.</p>
+                                </li>
+                                <li><u><b>Formaliser l'arborescence à l'aide d'un logiciel de maquettage :</b></u>
+                                    <p>Avant de passer à la réalisation sur logiciel, il est conseillé de réaliser un premier jet sur papier.</p>
+                                    <p>Pour organiser les idées de départ, on peut utiliser des logiciels de mindmapping tel que <a href="https://www.01net.com/telecharger/windows/Loisirs/education_et_scolarite/fiches/34923.html">Freemind</a> ou <a href="https://www.mindmeister.com/fr">MindMeister</a>.</p>
+                                    <P>Pour ce qui est des logiciels de maquettage web, on pourra se tourner vers <a href="https://balsamiq.com/">Balsamiq</a>, <a href="https://cacoo.com/fr/">Cacoo</a> ou encore Microsoft PowerPoint.</P>
+                                    
+                                </li>
+                                <li><u><b>Scénariser, penser SEO et recommencer !</b></u>
+                                    <p>Cette dernière étape va consister à tester l'arborescence à travers la définition de scénario qui peuvent être définit comme suit:
+                                        <ul>
+                                            <li>Profil du visiteur : Age, CSP (catégorie socio-professionnelle), maturité web</li>
+                                            <li>Objectif & sensibilité à votre offre : Besoin fort pour un produit, intérêt flou pour le domaine, etc.</li>
+                                            <li>Canal d’acquisition : Comment est-il arrivé sur votre site internet ? Référencement naturel ? Campagne presse ?</li>
+                                            <li>Page d’atterrissage : Sur quelle page est arrivé le visiteur ? Fiche produit ? Blog ? N’oubliez pas qu’un site web bien référencé attire plus de 80% des visiteurs sur des pages d’atterrissage, ou landing pages, différentes de la page d’accueil.</li>
+                                        </ul>
+                                    </p>
+                                    <p>Il faudra ensuite s'assurer que l'on a bien respecté les règles de bases concernant le référencement naturel.
+                                        <a href="https://www.eskimoz.fr/maillage-interne-comment-gerer-ses-liens-internes/">Pour plus d'informations !</a>
+                                    </p>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                
+                <ul>
+                    <li><a href="https://www.lafabriquedunet.fr/conseils/conception-site-web/creer-maquettes-site-web/">https://www.lafabriquedunet.fr/conseils/conception-site-web/creer-maquettes-site-web/</a></li>
+                </ul>
+                
+                
+                <div class="card">
+                    <div class="card-header bg-secondary" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Etape n°2 : le zoning.
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                        <div class="card-body">
+                            <a href="https://openclassrooms.com/fr/courses/4296701-gerez-un-projet-digital-avec-une-methodologie-en-cascade/4308346-realisez-le-zoning-et-le-wireframe-dun-site-web">https://openclassrooms.com/fr/courses/4296701-gerez-un-projet-digital-avec-une-methodologie-en-cascade/4308346-realisez-le-zoning-et-le-wireframe-dun-site-web</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="assets/images/zoningToWireframes.jpg" target="_blank"><img src="assets/images/zoningToWireframes.jpg" class="img-fluid mt-2 mb-2 p-3 border rounded bg-secondary" alt="Responsive image"></a>
+
+                <div class="card">
+                    <div class="card-header bg-secondary" id="headingFour">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        Etape n°3 : wireframes (ou maquette fonctionnelle).
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+
+                <a href="assets/images/wireframesToMockup.jpg" target="_blank"><img src="assets/images/wireframesToMockup.jpg" class="img-fluid mt-2 mb-2 p-3 border rounded bg-secondary" alt="Responsive image"></a>
+
+                <div class="card">
+                    <div class="card-header bg-secondary" id="headingFive">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed text-light" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        Etape n°4 : la maquette graphique.
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        
+
+    </div>    
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

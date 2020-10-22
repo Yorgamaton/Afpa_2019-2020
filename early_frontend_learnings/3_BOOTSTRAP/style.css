@@ -1,0 +1,93 @@
+/* mise en page de l'accueil */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 17px;
+    font-size: 1.7rem;
+}
+h1, h2{
+    text-decoration: underline;
+}
+ul{
+    list-style-type: none;
+    background-color: #343A40; 
+    display: flex;
+    padding: 15px 15px 15px 35px;
+}
+nav a, footer a{
+    color: white;
+    padding: 6px;
+}
+hr{
+    opacity: 20%;
+}
+aside{
+    background-color: #CCCCCC;
+    height: 550px;
+    margin-left: 1%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30%;
+}
+header p{
+    font-size: 40px;
+    font-size: 4rem ;
+}
+img 
+{
+     max-width: 100%;
+     height: auto;
+}
+/* mise en page du formulaire */
+
+
+
+/* Mise en page du t'ableau */
+
+td, th{
+    border: 1px solid  rgba(128, 128, 128, 0.4);
+    padding: 10px;
+}
+th{
+    border-bottom: 3px solid rgba(129, 129, 129, 0.4);
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td img{
+    border: 2px solid rgba(204, 204, 204, 0.3);
+    max-width: 100%;
+    height: auto;
+}
+/* responsive */
+@media screen and (max-width: 768px)
+{
+    /* accueil */
+    body{
+        font-size: 10px;
+        font-size: 1rem;
+    }
+    header img{
+        width: 150px;
+        height: 55px;
+        margin-top: 1%;
+    }
+    header p{
+        font-size: 25px;
+        font-size: 2.5rem;
+    }
+    footer ul{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer{
+        padding-bottom: 2%;
+    }
+    h1, h2{
+        text-decoration: underline;
+    }
+}

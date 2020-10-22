@@ -1,0 +1,20 @@
+body
+{
+    background-image: url('../images/bg.png');
+    background-repeat: repeat;
+    background-size: 15%;
+}
+.container
+{
+    background-color: rgba(255, 230, 130, 0.822);
+}
+
+p, li
+{
+    text-align: justify;
+}
+
+blockquote p
+{
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+/* =============== wrapper gestion des formulaires ================= */
+.wrapperGestionForm
+{
+    margin-top: 10px;
+}
+
+.wrapperGestionForm2
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 10px;
+    grid-auto-rows: 350px;
+
+}
+    /* =================== BOXES =================== */
+
+    .box1e 
+    {
+        background-color: rgb(204, 99, 0);
+        grid-auto-rows: 200px;
+        overflow: scroll;
+    }
+
+    /* 1 - Récupérer ou changer la valeur d'un input dans un formulaire  */
+    .box2e
+    {
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        grid-row-start: 1; 
+        grid-row-end: 2; 
+        background-color: rgb(255, 123, 0);
+        overflow: scroll;
+    }
+
+    /* 2 - Vérifier un formulaire avant soumission : */
+    .box3e
+    {
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        grid-row-start: 2; 
+        grid-row-end: 3; 
+        background-color: #ffa048;
+        overflow: scroll;
+    }

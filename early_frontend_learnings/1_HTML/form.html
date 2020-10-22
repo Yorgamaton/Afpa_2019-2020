@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JardiTou</title>
+</head>
+<body>
+     *Ces zones sont obligatoires
+    <form action="http://bienvu.net/script.php" method="GET" id="formulaire_cntact">
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            Votre nom*:<input type="text" name="nom" pattern="^[a-z]+$" required title="Entrez votre nom (que des caractères entre a et z)"><br>
+            Votre prénom*:<input type="text" name="prenom" pattern="^[a-z]+$" required title="Entrez votre prénom (que des caractères entre a et z)"><br>   
+            Sexe*: <br>
+            <input type="radio" name="sexe" value="Féminin" required title="veuillez renseigner ce champ">Féminin
+            <input type="radio" name="sexe" value="Masculin" required title="veuillez renseigner ce champ">Masculin <br>
+            Date de naissance*:<input type="date" name="date" required title="veuillez renseigner ce champ"><br>
+            Code postal:<input type="text" name="code_postal"><br>
+            Adresse:<input type="text" name="adresse"><br>
+            Ville:<input type="text" name="ville"><br>
+            Email*:<input type="email" name="email" placeholder="dave.loper@afpa.fr" required title="veuillez renseigner votre email">
+        </fieldset>
+        <fieldset>
+            <legend>Votre demande</legend>
+            Sujet*:<select name="mes_commandes" size="1" required title="veuillez renseigner ce champ">
+                        <option value="">Mes commandes</option>
+                        <option value="questions_sur_un-produit">Question sur un produit</option>
+                        <option value="Reclamation">Réclamation</option>
+                        <option value="autre">Autres</option>
+                    </select><br>
+            Votre question*: <textarea name="votre question" rows="2" cols="15" required title="veuillez renseigner ce champ" placeholder="votre texte"></textarea>
+        </fieldset>
+        <input type="checkbox" name="accepte" required title="veuillez cocher la case">j'accepte le traitement informatique de ce formulaire<br>
+        <input type="submit" Value="Envoyer">
+        <input type="reset" value="Annueler">
+    </form>
+</body>
+</html>

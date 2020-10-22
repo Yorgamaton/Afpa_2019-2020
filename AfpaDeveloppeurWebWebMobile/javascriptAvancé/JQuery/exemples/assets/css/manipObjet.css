@@ -1,0 +1,47 @@
+/* =============== wrapper manipulation des objets ================= */
+.wrapperManip
+{
+    margin-top: 10px;
+}
+
+.wrapperManip2
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 10px;
+    grid-auto-rows: 350px;
+
+}
+
+    /* =================== BOXES =================== */
+
+    /* =================== List events =================== */
+    .box1c 
+    {
+        background-color: rgb(96, 0, 134);
+        grid-auto-rows: 200px;
+        overflow: scroll;
+    }
+
+    /* 1 - Manipuler les instrcutions CSS : */
+    .box2c
+    {
+        background-color: rgb(126, 0, 175);
+        overflow: scroll;
+    }
+
+    /* 2 - Modifier la hauteur/largeur d'un élément HTML : */
+    .box3c
+    {
+        background-color: rgb(197, 49, 255);
+        overflow: scroll;
+    }
+
+    /* 3 - Ajouter ou supprimer une classe : */
+    .box4c
+    {
+        background-color: rgb(219, 135, 252);
+    }
+    

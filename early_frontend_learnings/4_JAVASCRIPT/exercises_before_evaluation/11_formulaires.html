@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/CSS/11_formulaires.css">
+    <title>Document</title>
+</head>
+<body>
+   <!-- test cours -->
+    <!-- <h2>Intercepte la validation du formulaire</h2>
+    <form id="form1" name="form1" onSubmit="return checkForm(this);">
+        <input type="text" name= "nom"value="Dupont" />
+        <input type="text" name= "prenom" value="Eric" />
+        <input type="submit" id="idSubForm1" name="subForm1" value="Connection" /> -->
+
+
+<form action="" method="POST">
+    <fieldset>
+        <legend>Vos coordonnées</legend>
+        <label for="socity">Société :</label>
+            <input type="text" name="society" id="society">
+        <label for="contact">Personne à contacter :</label>
+            <input type="text" name="contact" id="contact">
+        <label for="adress">Adresse de l'entreprise :</label>
+            <input type="text" name="adress" id="adress">
+        <label for="codepostal">Code Postale :</label>
+            <input type="text" name="codepostal" id="codepostal">
+        <label for="ville">Ville :</label>
+            <input type="text" name="ville" id="ville">
+        <label for="mail">E-mail :</label>
+            <input type="email" name="email" id="email">
+        <label for="phone">Téléphone :</label>
+            <input type="tel" name="phone" id="phone">
+        <label for="select">Sélectionnez l'environnement technique du projet</label> 
+            <select name="projet" id="projet">
+                <option value="">Choisissez</option>
+                <option value="Access">Access</option>
+                <option value="Java">Java</option>
+                <option value="Delphi">Delphi</option>
+                <option value="Windev">Windev</option>
+                <option value="Visual Basic">Visual Basic</option>
+                <option value="Power Builder">Power Builder</option>
+                <option value="Internet">Internet</option>
+                <option value="Intranet">Intranet</option>
+                <option value="Windows NT">Windows NT</option>
+                <option value="Unix">Unix</option>
+                <option value="SQL Server">SQL Server</option>
+                <option value="Oracle">Oracle</option>
+                <option value="Autres...">Autres...</option>
+            </select>
+        <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+        <button name="submit">Envoyer</button>
+        <button name="reset">Effacer</button>
+    </fieldset>
+</form>
+    <script src="assets/JS/11_formulaires.js"></script>
+</body>
+</html>

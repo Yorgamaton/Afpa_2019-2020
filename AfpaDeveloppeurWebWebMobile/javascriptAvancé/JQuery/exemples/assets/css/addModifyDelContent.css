@@ -1,0 +1,38 @@
+/* =============== wrapper manipulation des objets ================= */
+.wrapperAddModifyDelContent
+{
+    margin-top: 10px;
+}
+
+.wrapperAddModifyDelContent2
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 10px;
+    grid-auto-rows: 350px;
+
+}
+    /* =================== BOXES =================== */
+
+    .box1d 
+    {
+        background-color: rgb(5, 141, 0);
+        grid-auto-rows: 200px;
+        overflow: scroll;
+    }
+
+    /* 1 - Manipuler les instrcutions CSS : */
+    .box2d
+    {
+        background-color: rgb(7, 209, 0);
+        overflow: scroll;
+    }
+
+    /* 2 - Modifier la hauteur/largeur d'un élément HTML : */
+    .box3d
+    {
+        background-color: rgb(116, 255, 111);
+        overflow: scroll;
+    }

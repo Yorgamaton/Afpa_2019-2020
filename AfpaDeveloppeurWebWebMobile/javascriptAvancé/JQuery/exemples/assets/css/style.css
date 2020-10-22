@@ -1,0 +1,93 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.highlight
+{
+    color: black; 
+    font-size:18px; 
+    background-color: lightgray;
+}
+
+.alert
+{
+    background-color: rgb(255, 140, 140);
+    color: rgb(173, 0, 0);
+    border: rgb(173, 0, 0) solid 1px;
+    border-radius: 5px;
+    margin: 2%;
+    padding: 1%;
+}
+
+/* =============== Main wrapper ================= */
+
+.wrapper 
+    {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 10px;
+    }
+
+/* =============== Wrapper header ================= */
+.wrapperHeader 
+{
+    display: grid;
+    border: rgb(190, 190, 190) solid 1px;
+    border-radius: 2px;
+    margin-bottom: 1rem;
+}
+#imgHeader
+{
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+.headerBox2 p
+{
+    color: black;
+    padding: 0% 5% 0% 5%;
+}
+
+
+/* =============== wrapper évènnement ================= */
+.wrapperEvent
+{
+    display: grid;
+    margin-top: 10px;
+}
+.colBox1
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.colBox1 ul li
+{
+    background-color: rgb(0, 83, 143);
+    color: white;
+
+}
+
+    /* =================== BOXES =================== */
+
+    /* =================== List events =================== */
+    .box1b 
+    {
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        background-color: rgb(0, 83, 143);
+    }
+
+/* =============== wrapper Footer ================= */
+
+.wrapperFooter
+{
+    display: grid;
+    margin-top: 10px;
+    background-color: gray;
+}
+.wrapperFooter ul
+{
+    color: white;
+    margin-top: 0px;
+}

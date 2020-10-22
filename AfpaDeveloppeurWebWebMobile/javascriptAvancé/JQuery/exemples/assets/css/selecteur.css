@@ -1,0 +1,125 @@
+/* ===============wrapper sélecteur================= */
+
+.wrapperSelector2
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 10px;
+    grid-auto-rows: 350px;
+}
+
+p, h3, h4, .noir
+{
+    padding: 0% 3% 0% 3%;
+    color: floralwhite;
+    padding-bottom: 0%;
+    text-align: justify;
+}
+
+a
+{
+    color: rgb(159, 107, 194);
+    font-weight: bold;
+}
+
+/* =================== BOXES =================== */
+
+    /* =================== 1er test JQuery =================== */
+    .box1 
+    {
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        grid-row-start: 1; 
+        grid-row-end: 3; 
+        background-color: rgb(241, 137, 0);
+        overflow: scroll;
+    }
+
+    /* =================== Sélecteurs =================== */
+    .box2 
+    {
+        background-color: rgb(141, 0, 28);
+        overflow: scroll;
+        grid-column-start: 1; 
+        grid-column-end: 4; 
+        grid-row-start: 3; 
+        grid-row-end: 4; 
+        margin-top: 10px;
+    }
+
+    /* 1 - Sélection d'un élément HTML avec identifiant : */
+    .box3
+    {
+        background-color: rgb(189, 2, 39);
+        overflow: scroll;
+    }
+
+    /* 2 - Sélection d'une classe CSS : */
+    .box4
+    {
+        background-color: crimson;
+    }
+
+    /* 3 - Sélection d'une balise HTML : */
+    .box5
+    {
+        background-color: rgb(247, 48, 88);
+    }
+
+    /* 4 - Sélection multiple : */
+    .box6
+    {
+        grid-column-start: 1; 
+        grid-column-end: 2; 
+        grid-row-start: 2; 
+        grid-row-end: 3; 
+        background-color: rgb(221, 0, 44);
+        overflow: scroll;
+    }
+
+    /* 5 - Sélection descendante : */
+    .box7
+    {
+        grid-column-start: 2; 
+        grid-column-end: 3; 
+        grid-row-start: 2; 
+        grid-row-end: 3; 
+        background-color: rgb(253, 0, 51);
+        overflow: scroll;
+    }
+
+    /* 6 - Sélection d'éléments « commençant par » : */
+    .box8
+    {
+        grid-column-start: 3; 
+        grid-column-end: 4; 
+        grid-row-start: 2; 
+        grid-row-end: 3; 
+        background-color: rgb(250, 103, 133);
+        overflow: scroll;
+
+    }
+
+    /* 7 - Sélection d'éléments « finissant par » : */
+    .box9
+    {
+        background-color: rgb(255, 73, 109);
+        overflow: scroll;
+    }
+
+    /* 8 - Sélection d'un attribut : */
+    .box10
+    {
+        background-color: rgb(255, 143, 165);
+        overflow: scroll;
+    }
+
+    /* 9 - Autres sélecteurs : */
+    .box11, .box11 p, .box11 h4
+    {
+        background-color: rgb(255, 203, 213);
+        font-weight: bold;
+        text-shadow:1px 1px 2px rgb(117, 97, 97);
+    }

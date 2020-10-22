@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JardiTou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <figure>
+            <img src="images/jarditou_logo.jpg" alt="Logo" title="logo jarditou"> 
+            <figcaption>Tout le jardin</figcaption> 
+        </figure>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" title="page_d_accueil">Accueil</a></li>
+            <li><a href="tableau.html" title="tableau">tableau</a></li>
+            <li><a href="form.html" title="Nous Contacter">Contact</a></li>
+        </ul>
+    </nav>
+    <img src="images/promotion.jpg" alt="" title="banniere" width="100%">
+     *Ces zones sont obligatoires
+    <form action="http://bienvu.net/script.php" method="GET" id="formulaire_cntact">
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            <label for="nom">Votre nom*:</label><input type="text" name="nom" id="nom" autofocus required>
+            <label for="prenom">Votre prénom*:</label><input type="text" name="prenom" id="prenom" required>  
+            <label for="sexe">Sexe*:</label> 
+            <input type="radio" name="sexe" value="Féminin" id="sexe" required>Féminin
+            <input type="radio" name="sexe" value="Masculin" id="sexe" required>Masculin 
+            <label for="date">Date de naissance*:</label><input type="date" name="date" id="date" required>
+            <label for="cp">Code postal:</label><input type="text" name="code_postal" id="cp">
+            <label for="adresse">Adresse:</label><input type="text" name="adresse" id="adresse">
+            <label for="ville">Ville:</label><input type="text" name="ville" id="ville">
+            <label for="email">Email*:</label><input type="email" name="email" placeholder="dave.loper@afpa.fr" id="email" required>
+        </fieldset>
+        <fieldset>
+            <legend>Votre demande</legend>
+            <label for="sujet">Sujet*:</label><select name="mes_commandes" size="1" required>
+                        <option value="">Mes commandes</option>
+                        <option value="questions_sur_un-produit">Question sur un produit</option>
+                        <option value="Reclamation">Réclamation</option>
+                        <option value="autre">Autres</option>
+                    </select>
+            <label for="question">Votre question*:</label> 
+            <textarea name="votre question" rows="2" cols="15" placeholder="Bonjour..." required></textarea>
+        </fieldset>
+        <label><input type="checkbox" name="accepte" required>j'accepte le traitement informatique de ce formulaire</label>
+        <div style="white-space:pre-line;">
+</div>
+        <input type="submit" Value="Envoyer">
+        <input type="reset" value="Annuler">
+    </form>
+    <footer>
+        <ul>
+            <li><a href="" title="les mentions légales">Mentions légales</a></li>
+            <li><a href="" title="les horaires">Horaires</a></li>
+            <li><a href="" title="le plan du site">Plan du site</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
